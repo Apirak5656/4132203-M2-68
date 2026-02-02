@@ -1,0 +1,70 @@
+<html>
+    <body>
+        <div>Hello Javascript</div>
+    </body>
+
+    <script>
+
+        var name = "Mix";
+        let age = 25;
+        const x = 12.3;
+
+        console.log(name);
+        console.log(age);
+        console.log(x);
+
+        function add(a,b){
+            let c = a + b;
+            return a + b;
+        }
+
+        let total = add(3,5);
+        console.log(total);
+
+        let add2 = function(aa,bb){
+            return aa + bb;
+        };
+
+        let add3 =(a,b)=>{
+            return a+ b;
+        };
+
+        //array
+        let arr = [1,-2.3,"name"];
+        console.log(arr[1]);
+
+        let car = new Array("Toyota","Honda");
+        let mix = [[2,5,0],"age"];
+        console.log(mix[0][1]);
+
+        //object
+        let person = {
+            name: "jhon",
+            lastname: "Dev",
+            age: 25,
+            car: ["Mada","Honda"],
+            fullname: function(){
+                return this.name + " " + this.lastname;
+            }
+        };
+
+        console.log(person.fullname(), car[0]);
+
+        //spread operator
+        const mix1 = [car,arr];
+        const mix2 = [...car,...arr];
+        console.log(mix1);
+        console.log(mix2);
+
+        //condition
+        if(3 < 5){
+            console.log("true");
+        } else
+            console.log("false");
+
+        let cond = 3 < 5 ? "true" : "false";
+   
+   </script>
+
+    <script src="app.js"></script>
+</html>

@@ -1,5 +1,5 @@
-Apirak Thothong
+นายภิรักษ์ โททอง
 670112418056
-Information Technology
-science
-M 2
+สาขาเทคโนโลยีสารสนเทศ
+คณะวิทยาศาสตร์
+หมู่ 2
